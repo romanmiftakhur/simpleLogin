@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(68, 136, 247);
+    height: 90px;
+}
+
+.header-left h1 {
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.header-right{
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.header-right button {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.header-right button:hover {
+    opacity: 1;
+    border: none;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 136, 247);
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
+

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(243 244 246);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 8px 0px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.signin-signup {
+    background-color: rgb(255 255 255);
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(32, 22, 22, 0.25);
+    display: flex;
+    width: 66%;
+    max-width: 56rem;
+}
+
+.signin {
+    width: 60%;
+    padding: 1.25rem;
+}
+
+.content {
+    padding: 2.5rem 0;
+}
+
+.title-signin {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    color: rgb(59 130 246);
+    margin-bottom: 0.5rem;
+}
+
+.divider {
+    border-width: 2px;
+    width: 2.5rem;
+    border-color: rgb(59 130 246);
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.message {
+    align-items: center;
+    justify-content: center;
+    color: rgb(239 68 68);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px
+}
+
+.input-field {
+    background-color: rgb(243 244 246);
+    width: 284px;
+    height: 48px;
+    padding: 0 .4rem;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    border-radius: 50px;
+}
+
+.input-field i {
+    color: rgb(99, 120, 155);
+    margin: 8px;
+    line-height: 48px;
+}
+
+.input-field input {
+    background-color: rgb(243 244 246);
+    flex: 1;
+    border: none;
+    outline: none;
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.btn-signin {
+    border-width: 2px;
+    background-color: rgb(243 244 246);
+    border-color: rgb(59 130 246);
+    color: rgb(59 130 246);
+    border-radius: 55px;
+    padding: 8px 48px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.btn-signin:hover {
+    background-color: rgb(59 130 246);
+    color: rgb(243 244 246);
+}
+
+.signup {
+    width: 40%;
+    background-color: rgb(59 130 246);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 144px 58px;
+}
+
+.title-signup {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    color: rgb(243 244 246);
+    margin-bottom: 0.5rem;
+}
+
+.text {
+    margin-bottom: 5px;
+    color: rgb(243 244 246);
+}
+
+.btn-signup {
+    border-width: 2px 2px;
+    border-color: rgb(243 244 246);
+    background-color: rgb(59 130 246);
+    border-radius: 55px;
+    padding: 8px 48px;
+    display: inline-block;
+    color: rgb(243 244 246);
+    font-weight: 600;
+}
+
+.btn-signup:hover {
+    background-color: white;
+    color: rgb(59 130 246);
+}
